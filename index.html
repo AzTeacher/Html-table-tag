@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Html Table - Cədvəl tag - #12</title>
+</head>
+
+
+<style>
+    table {
+        border: 1px solid black;
+    }
+
+    td,
+    tr {
+        border: 1px solid black;
+
+
+    }
+</style>
+
+<body>
+    <!-- 
+
+<table>	       ==>       Defines a table         
+                         Cədvəl yaratmaq üçün tag
+
+<th>	       ==>       Defines a header cell in a table    
+                         Cədvəldə başlıq təyin etmək üçündür.
+
+<tr>		   ==>       Defines a row in a table    
+                         Cədvəldə sətir təyin etmək üçündür.
+
+<td>	       ==>  	 Defines a cell in a table    
+                         Cədvəldəki xananı təyin etmək üçündür.
+
+<caption>	   ==>  	 Defines a table caption
+                         Cədvəl başlığını təyin etmək üçündür.
+
+<colgroup>	   ==>  	 Specifies a group of one or more columns in a table for formatting   
+                         Cədvəldə bir və ya bir neçə sütundan ibarət qrup təyin etmək üçündür.
+
+<col>		   ==>       Specifies column properties for each column within a <colgroup> element   
+                         <colgroup> Tag daxilində hər bir sütun üçün sütun xüsusiyyətlərini təyin etmək üçündür.
+
+<thead>		   ==>       Groups the header content in a table   
+                         Cədvəldə Başlıq məzmununu təyin etmək üçündür.
+
+<tbody>		   ==>       Groups the body content in a table   
+                         Cədvəldə Gövdə məzmununu təyin etmək üçündür.
+
+<tfoot>		   ==>       Groups the footer content in a table    
+                         Cədvəldə Altbilgi məzmununu təyin etmək üçündür.
+
+Table border   ==>       Cədvəl kənarlıqların təyin etmək üçündür.   
+Table sizes    ==>       Cədvəl ölçülırin təyin etmək üçündür.          
+
+ 
+|------|----------|---------------|---------------|---------------|
+|  Id  |    Ad    |    Soyad      |    Is saati   |      Maas     |
+|------|----------|---------------|---------------|---------------|
+|1     |Aziz      |Amiraslanov    |40             |500            |
+|------|----------|---------------|---------------|---------------|
+|2     |Elcin     |Memmedov       |40             |600            |
+|------|----------|---------------|---------------|---------------|
+|3     |Gulsen    |Huseynova      |40             |700            |
+|------|----------|---------------|---------------|---------------|
+|4     |Azizova   |Fatime         |40             |800            |
+|------|----------|---------------|---------------|---------------|
+|Cəm:  |                                          |2600           |
+|------|----------|---------------|---------------|---------------|
+
+
+-->
+
+    <table style="width: 50%;">
+        <caption>Iscilerin saatliq emek haqqlari</caption>
+
+        <colgroup>
+            <col span="1" style="background-color: red;">
+            <col span="2" style="background-color: rgb(0, 166, 255);">
+            <col span="2" style="background-color: green;">          
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th style="width: 10%;">Id</th>
+                <th style="width: 30%;">Ad</th>
+                <th style="width: 30%;">Soyad</th>
+                <th style="width: 10%;">Is saati</th>
+                <th style="width: 20%;">Maas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Aziz</td>
+                <td>Amiraslanov</td>
+                <td>40</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Aziz</td>
+                <td>Amiraslanov</td>
+                <td>40</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Aziz</td>
+                <td>Amiraslanov</td>
+                <td>40</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Aziz</td>
+                <td>Amiraslanov</td>
+                <td>40</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Cem: </td>
+                <td>2000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+</body>
+
+</html>
